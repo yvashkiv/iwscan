@@ -1,6 +1,7 @@
 services:
   iwscan:
     build: .
+    container_name: monitoring-iwscan-exporter
     privileged: true
     network_mode: host
     restart: unless-stopped
