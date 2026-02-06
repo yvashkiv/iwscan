@@ -1,0 +1,9 @@
+services:
+  iwscan:
+    build: .
+    privileged: true
+    network_mode: host
+    restart: unless-stopped
+    environment:
+      - INTERFACE=wlan0
+      - PORT=5024
