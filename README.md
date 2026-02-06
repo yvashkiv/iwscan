@@ -2,8 +2,6 @@
 
 A simple Python script that parses the output of the `iw` command and exposes WiFi network data as Prometheus metrics.
 
-Also available as a Docker image on [alexlepape/iwscan](https://hub.docker.com/r/alexlepape/iwscan).
-
 ![iwscan grafana](https://user-images.githubusercontent.com/2038195/236711840-6d818868-b787-4f71-935d-475c5d25bb57.png)
 
 ## Use Cases
